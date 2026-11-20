@@ -1,0 +1,76 @@
+/*
+ * Esqueleto de sistema de diseño en CSS: tokens, tipografía autoalojada y
+ * foco visible. Es un punto de partida, no una plantilla: los valores
+ * concretos (colores, familias, escalas) son decisiones de marca.
+ *
+ * Cárgalo en la parte pública y en el editor (véase ../php/estilos-en-editor.php)
+ * para que lo que ve quien edita se parezca a lo que se publica.
+ *
+ * Licencia: MIT (véase LICENSE-MIT en la raíz del repositorio).
+ */
+
+/* 1. Tipografía autoalojada: sin peticiones a terceros. */
+@font-face {
+	font-family: "Texto";
+	src: url("../fonts/texto-variable.woff2") format("woff2");
+	font-weight: 300 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* 2. Tokens. Comprueba el contraste de cada pareja texto/fondo (WCAG 1.4.3). */
+:root {
+	--color-texto: #1a1a1a;
+	--color-fondo: #ffffff;
+	--color-acento: #0b57d0;
+	--color-acento-texto: #ffffff;
+	--color-foco: #0b57d0;
+
+	--fuente-base: "Texto", system-ui, sans-serif;
+	--paso-0: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+	--paso-1: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+	--paso-2: clamp(1.6rem, 1.3rem + 1.2vw, 2.25rem);
+
+	--espacio-s: 0.75rem;
+	--espacio-m: 1.5rem;
+	--espacio-l: 3rem;
+
+	--ancho-contenido: 72rem;
+	--radio: 0.5rem;
+}
+
+body {
+	font-family: var(--fuente-base);
+	font-size: var(--paso-0);
+	color: var(--color-texto);
+	background: var(--color-fondo);
+}
+
+/* 3. Foco visible (WCAG 2.4.7) y no tapado por cabeceras fijas (2.4.11). */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+	outline: 3px solid var(--color-foco);
+	outline-offset: 2px;
+}
+
+html {
+	scroll-padding-top: 6rem; /* ajusta a la altura de tu cabecera fija */
+}
+
+/* 4. Área mínima de pulsación de 24 × 24 px (WCAG 2.5.8) en botones. */
+.wp-element-button,
+.wp-block-button__link {
+	min-height: 2.75rem;
+	min-width: 2.75rem;
+}
+
+/* 5. Respeta a quien pide menos movimiento. */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}

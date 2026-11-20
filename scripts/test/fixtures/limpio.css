@@ -1,0 +1,2 @@
+:root { --color-acento: #0b57d0; }
+.boton { color: var(--color-acento); }

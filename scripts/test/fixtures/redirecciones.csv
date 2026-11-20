@@ -1,0 +1,7 @@
+origen,destino
+# fila correcta
+{BASE}/servicios-antiguos/,{BASE}/accesible.html
+# redirección temporal: debe fallar
+{BASE}/temporal/,{BASE}/accesible.html
+# destino equivocado: debe fallar
+{BASE}/mal-destino/,{BASE}/accesible.html

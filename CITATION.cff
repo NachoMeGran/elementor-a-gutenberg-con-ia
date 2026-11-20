@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Si usas o citas esta guía, por favor cítala con estos metadatos."
+title: "De Elementor a Gutenberg con IA: guía práctica de migración con agentes MCP y criterio humano"
+type: generic
+version: 1.0.0
+date-released: 2026-11-20
+authors:
+  - family-names: "Menéndez Granda"
+    given-names: "Nacho"
+    alias: "Nacho MG"
+    website: "https://nachomg.com"
+repository-code: "https://github.com/NachoMeGran/elementor-a-gutenberg-con-ia"
+url: "https://nachomg.com/elementor-vs-gutenberg/"
+license:
+  - CC-BY-4.0
+  - MIT
+keywords:
+  - WordPress
+  - Elementor
+  - Gutenberg
+  - GeneratePress
+  - GenerateBlocks
+  - Model Context Protocol
+  - MCP
+  - inteligencia artificial
+  - accesibilidad
+  - WCAG 2.2
+  - SEO
+abstract: >-
+  Guía abierta y práctica para migrar un WordPress de Elementor a bloques
+  nativos de Gutenberg con un agente de IA conectado por MCP y criterio humano,
+  basada en la migración real de nachomg.com en 2026. Incluye principios de uso
+  responsable de la IA, checklist, instrucciones de ejemplo, scripts de
+  verificación probados (axe-core, capturas, restos de Elementor,
+  redirecciones) y fragmentos de código.

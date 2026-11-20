@@ -1,0 +1,43 @@
+/*
+ * Rejillas y flex con el bloque Grupo en temas clásicos (sin theme.json).
+ *
+ * Problema: en un tema sin theme.json, WordPress envuelve el contenido de los
+ * bloques Grupo en <div class="wp-block-group__inner-container"> (función
+ * wp_restore_group_inner_container, en wp-includes/block-supports/layout.php).
+ * Si declaras display:grid o display:flex en el Grupo, el único hijo directo
+ * es ese envoltorio, y la rejilla se queda con un solo elemento.
+ *
+ * Solución: que el envoltorio no genere caja, de modo que sus hijos pasen a
+ * ser elementos de la rejilla. Acótalo con una clase que tú añades al Grupo
+ * (Avanzado > Clases CSS adicionales) para no tocar grupos que no lo necesitan.
+ *
+ * Alternativa sin CSS: usar las variantes Fila, Pila o Cuadrícula del Grupo
+ * (layout flex o grid), a las que WordPress no añade el envoltorio.
+ *
+ * Licencia: MIT (véase LICENSE-MIT en la raíz del repositorio).
+ */
+
+.wp-block-group.rejilla > .wp-block-group__inner-container,
+.wp-block-group.fila > .wp-block-group__inner-container {
+	display: contents;
+}
+
+/* Ejemplo de rejilla de 12 columnas basada en tokens (véase tokens.css). */
+.wp-block-group.rejilla {
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+	gap: var(--espacio-m, 1.5rem);
+}
+
+.rejilla > .wp-block-group__inner-container > * {
+	grid-column: span 12;
+}
+
+@media (min-width: 768px) {
+	.rejilla > .wp-block-group__inner-container > .col-6 {
+		grid-column: span 6;
+	}
+	.rejilla > .wp-block-group__inner-container > .col-4 {
+		grid-column: span 4;
+	}
+}

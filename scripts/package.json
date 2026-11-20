@@ -1,0 +1,23 @@
+{
+  "name": "elementor-a-gutenberg-con-ia-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Utilidades de verificación para migraciones de Elementor a Gutenberg: accesibilidad con axe-core, capturas, restos de Elementor y redirecciones.",
+  "license": "MIT",
+  "author": "Nacho Menéndez Granda (https://nachomg.com)",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/ejecutar.js",
+    "axe": "node axe-wcag.js",
+    "capturas": "node capturas.js",
+    "restos": "node restos-elementor.js",
+    "redirecciones": "node redirecciones.js"
+  },
+  "dependencies": {
+    "axe-core": "^4.10.2",
+    "playwright": "^1.49.0"
+  }
+}
