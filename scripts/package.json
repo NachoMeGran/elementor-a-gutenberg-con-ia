@@ -1,6 +1,6 @@
 {
   "name": "elementor-a-gutenberg-con-ia-scripts",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "private": true,
   "description": "Utilidades de verificación para migraciones de Elementor a Gutenberg: accesibilidad con axe-core, capturas, restos de Elementor y redirecciones.",
   "license": "MIT",

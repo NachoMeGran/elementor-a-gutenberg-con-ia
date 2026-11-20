@@ -2,18 +2,26 @@
 
 Todo lo anterior describe tareas que un agente puede hacer bien, rápido y con trazabilidad. Este capítulo trata de lo contrario: las decisiones que no se le pasan, aunque técnicamente pueda ejecutarlas. Hay decisiones cuyas consecuencias recaen en personas concretas, y quien las toma tiene que poder responder por ellas. Un modelo no puede.
 
-La lista es corta a propósito: cinco líneas claras se respetan mejor que un reglamento.
+La lista es corta a propósito: cinco líneas claras se respetan mejor que un reglamento. A ellas se suman dos que atraviesan toda la guía: el agente no genera los textos ni las imágenes de la web, y no redacta el diario de migración ni los informes finales; recopila los datos y la persona escribe.
 
 ## 1. Decisiones de marca y de contenido
 
-Qué dice la web, cómo lo dice y qué se queda fuera son decisiones de la marca. El agente puede proponer textos, detectar incoherencias, señalar contenido desfasado o sugerir una estructura. No decide:
+Qué dice la web, cómo lo dice y qué se queda fuera son decisiones de la marca. El agente puede detectar incoherencias, señalar contenido desfasado o sugerir una estructura técnica. No escribe ni decide:
 
 - El mensaje de la portada, los servicios que se ofrecen ni cómo se describen.
 - La paleta, la tipografía o el tono visual.
 - Qué testimonios, casos o cifras se publican. Un testimonio es la palabra de una persona real; una cifra comercial es un compromiso.
 - Cambios de redacción en páginas que ya funcionan, «aprovechando» la migración.
 
-**Cómo se hace en la práctica**: el agente traslada el contenido con fidelidad y deja en su informe una lista de propuestas. La persona las acepta, las cambia o las descarta.
+**Cómo se hace en la práctica**: el agente traslada el contenido con fidelidad y deja en su informe una lista de observaciones (erratas, datos dudosos, textos alternativos que faltan). La persona decide y, si hay que escribir algo, lo escribe ella.
+
+### Los textos y las imágenes de la web no se generan con IA
+
+Es la línea más clara de esta guía: **ningún texto que se publique en la web ni ninguna imagen se generan con IA.** Eso incluye los textos de las páginas y entradas, los titulares y los botones, las metadescripciones y los títulos SEO, los textos alternativos, los pies de foto y las imágenes destacadas, ilustraciones o fondos.
+
+Los motivos son dos. El primero es de responsabilidad: lo que dice la web lo firma la marca, y un texto generado es plausible, no necesariamente cierto. El segundo es ético: los modelos generativos de imagen se han alimentado de obra de autores que no dieron su consentimiento ni recibieron nada a cambio, y el contenido generado sin autoría ni criterio es *AI slop* que degrada la web y la confianza de quien la lee. Lo desarrollo en el repositorio [ia-responsable-en-marketing](https://github.com/NachoMeGran/ia-responsable-en-marketing).
+
+En una migración, el agente traslada los textos y las imágenes que ya existen, sin cambiarlos. Si falta algo (un texto alternativo, una metadescripción, una imagen), lo anota; lo escribe o lo encarga una persona.
 
 ## 2. Textos legales sin revisión
 
@@ -47,14 +55,14 @@ Si un agente te pide una contraseña para «terminar la tarea», la respuesta es
 
 ## Zonas grises
 
-Hay tareas que no encajan del todo en ninguna categoría. El criterio que uso es preguntarme qué pasa si sale mal y quién lo nota primero:
+Hay tareas que no encajan del todo en ninguna categoría. El criterio que uso es preguntarme qué pasa si sale mal y quién lo nota primero, y si el resultado es un texto que se publica (en ese caso, lo escribe una persona):
 
 | Tarea | Riesgo si sale mal | Criterio |
 |---|---|---|
 | Activar o desactivar plugins | Puede romper la web entera | Aprobación explícita en el momento, con copia previa |
 | Cambiar ajustes globales del tema o de caché | Afecta a todas las páginas | Aprobación explícita; verificación en varias plantillas |
-| Textos alternativos de imágenes | Descripciones inventadas o inexactas | El agente propone; una persona revisa al menos las imágenes con contenido |
-| Metadescripciones nuevas | Mensajes que no representan a la marca | El agente propone; la persona aprueba |
+| Textos alternativos de imágenes | Descripciones inventadas o inexactas | El agente detecta las imágenes sin texto alternativo y las lista; la persona los escribe |
+| Metadescripciones nuevas | Mensajes que no representan a la marca | El agente detecta las que faltan o están duplicadas; la persona las escribe |
 | Corregir infracciones de axe | Cambios de diseño no deseados | El agente corrige las de marcado; las de color o diseño se aprueban |
 | Purgar caché | Ninguno grave, salvo los límites de frecuencia | Delegable, agrupando cambios |
 

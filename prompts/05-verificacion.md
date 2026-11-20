@@ -4,8 +4,9 @@ Capítulo relacionado: [docs/09-verificacion.md](../docs/09-verificacion.md)
 
 ```text
 OBJETIVO
-Verificar el resultado de la fase [nombre] en la web publicada y entregar un
-informe con evidencias, separando lo verificado de lo que no lo está.
+Verificar el resultado de la fase [nombre] en la web publicada y entregarme
+los datos y las evidencias, separando lo verificado de lo que no lo está.
+El informe de la fase lo escribo yo a partir de lo que recopiles.
 
 CONTEXTO
 - URL afectadas en esta fase: [lista].

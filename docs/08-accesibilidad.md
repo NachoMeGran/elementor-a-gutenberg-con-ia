@@ -53,7 +53,7 @@ Lo que axe no puede juzgar y alguien tiene que comprobar:
 4. **Formularios**: cada campo tiene etiqueta visible, los errores se anuncian y se entienden, las casillas de consentimiento se pueden marcar con teclado.
 5. **Lector de pantalla**: una pasada por la portada y una entrada con un lector de pantalla (NVDA, VoiceOver o TalkBack), revisando encabezados, enlaces y textos alternativos.
 6. **Zoom**: al 200 % y al 400 % el contenido se reajusta sin pérdida.
-7. **Textos alternativos**: describen la función de la imagen en su contexto. El agente puede proponerlos; una persona los revisa, porque un texto alternativo inventado es peor que uno vacío en una imagen decorativa.
+7. **Textos alternativos**: describen la función de la imagen en su contexto. El agente detecta las imágenes sin texto alternativo y las lista; los escribe una persona, porque es contenido publicado y porque un texto alternativo inventado es peor que uno vacío en una imagen decorativa.
 
 ## Reparto con el agente
 

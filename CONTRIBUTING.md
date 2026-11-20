@@ -13,7 +13,7 @@ Gracias por querer mejorar esta guía. Las incidencias (issues) y las propuestas
 
 1. **Fuentes verificables.** Toda afirmación técnica se apoya en documentación oficial, en el código fuente o en una prueba reproducible. Enlaza la fuente en el propio texto. Si algo es una observación de un caso concreto, dilo así.
 2. **Nada inventado.** Ni casos, ni clientes, ni cifras, ni citas. Si no se puede comprobar, no entra.
-3. **El principio rector se mantiene.** Las propuestas que trasladen al agente decisiones de marca, contenido, textos legales, borrados, redirecciones de URL con tráfico, publicación sin verificación o manejo de credenciales no se aceptarán.
+3. **El principio rector se mantiene.** Las propuestas que trasladen al agente la redacción de textos publicados o de informes finales, la generación de imágenes, decisiones de marca, contenido, textos legales, borrados, redirecciones de URL con tráfico, publicación sin verificación o manejo de credenciales no se aceptarán.
 4. **Sin credenciales ni datos personales** en ejemplos, capturas o instrucciones.
 5. **Español de España**, claro y directo. Markdown de GitHub, enlaces relativos entre archivos del repositorio.
 6. **El código, probado.** Ejecuta `npm test` en `scripts/` antes de proponer cambios en scripts o en `snippets/css/`.

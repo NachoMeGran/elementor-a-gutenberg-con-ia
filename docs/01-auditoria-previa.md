@@ -68,7 +68,7 @@ El objetivo de referencia es WCAG 2.2 nivel AA. Lo detallo en [08. Accesibilidad
 
 ## Entregable de esta fase
 
-Un documento de auditoría con fecha que incluya: cifras de rendimiento por página, lista de URL críticas, inventario de plugins y dependencias de Elementor, estado de accesibilidad, observaciones legales para revisar y una lista priorizada de problemas. El agente puede redactarlo a partir de lo que ha leído; la persona responsable lo valida y lo convierte en el punto de partida del plan.
+Un documento de auditoría con fecha que incluya: cifras de rendimiento por página, lista de URL críticas, inventario de plugins y dependencias de Elementor, estado de accesibilidad, observaciones legales para revisar y una lista priorizada de problemas. El agente recopila los datos en tablas a partir de lo que ha leído; la persona responsable los revisa, escribe el documento y lo convierte en el punto de partida del plan.
 
 Para la instrucción de ejemplo, véase [prompts/01-auditoria.md](../prompts/01-auditoria.md).
 

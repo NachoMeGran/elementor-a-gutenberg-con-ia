@@ -14,7 +14,7 @@ Todas siguen la misma estructura, porque cada parte evita un tipo de error:
 | **Restricciones** | Límites de alcance, de estilo y de método. |
 | **Pasos** | El orden de trabajo, cuando importa. |
 | **Verificación** | Cómo debe comprobar que el trabajo está bien antes de darlo por terminado. |
-| **Informe** | Qué debe entregar, separando lo verificado de lo no verificado. |
+| **Informe** | Qué datos y evidencias debe entregar, separando lo verificado de lo no verificado. Es material de trabajo para la persona, no el informe final ni el diario de migración, que escribe ella. |
 
 ## Reglas que van en todas
 
@@ -22,6 +22,7 @@ Todas siguen la misma estructura, porque cada parte evita un tipo de error:
 - Las acciones sensibles (publicar, borrar, redirigir, cambiar ajustes globales, activar o desactivar plugins) siempre requieren aprobación explícita.
 - El informe distingue entre «hecho y verificado», «hecho sin verificar» y «no hecho».
 - Ante la duda, el agente pregunta en lugar de suponer.
+- El agente no escribe textos que se vayan a publicar ni genera imágenes: traslada lo que existe y anota lo que falta.
 
 ## Índice
 

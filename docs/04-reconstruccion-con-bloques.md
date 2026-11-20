@@ -73,7 +73,7 @@ No hay correspondencia uno a uno, y conviene aprovechar la reconstrucción para 
 
 El agente puede trasladar el texto existente con fidelidad. Lo que no debe hacer sin aprobación es **reescribirlo**. Si durante la reconstrucción detecta textos desfasados, cifras dudosas o afirmaciones que ya no son ciertas, las marca en su informe y la persona decide. Las decisiones de contenido y de marca no se delegan (véase [11](11-que-no-delegar-en-la-ia.md)).
 
-Lo mismo vale para los encabezados. Una reconstrucción es buena ocasión para ordenar la jerarquía (un solo H1, H2 por sección, H3 dentro), pero cambiar el texto de un encabezado puede afectar al posicionamiento. Se propone, no se impone.
+Lo mismo vale para los encabezados. Una reconstrucción es buena ocasión para ordenar la jerarquía (un solo H1, H2 por sección, H3 dentro), y el agente puede cambiar el nivel de un encabezado si la persona lo aprueba. El texto del encabezado es otra cosa: cambiarlo puede afectar al posicionamiento y es contenido de la marca, así que el agente lo señala y, si hay que reescribirlo, lo reescribe una persona.
 
 ## Comprobaciones por página
 

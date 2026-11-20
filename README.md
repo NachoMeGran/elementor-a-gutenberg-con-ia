@@ -8,7 +8,9 @@ Está basada en un caso real: la migración de [nachomg.com](https://nachomg.com
 
 **La IA ejecuta y propone; la persona decide, revisa y responde.**
 
-Un agente conectado a WordPress puede inventariar, reescribir marcado, pasar pruebas y documentar en una fracción del tiempo que llevaría a mano. Lo que no puede es responder ante clientes, lectores y buscadores por lo que se publica, se borra o se redirige. Esta guía separa con claridad las dos cosas en cada fase. Es un caso técnico, pero el fondo es el uso moral de la IA: velocidad para lo mecánico y responsabilidad humana para lo que tiene consecuencias.
+Un agente conectado a WordPress puede inventariar, reescribir marcado, pasar pruebas y recopilar datos en una fracción del tiempo que llevaría a mano. Lo que no puede es responder ante clientes, lectores y buscadores por lo que se publica, se borra o se redirige. Esta guía separa con claridad las dos cosas en cada fase. Es un caso técnico, pero el fondo es el uso moral de la IA: velocidad para lo mecánico y responsabilidad humana para lo que tiene consecuencias.
+
+En esta guía la IA hace **solo trabajo técnico y mecánico y verificación**: inventarios, marcado de bloques, CSS, pruebas, capturas, comprobaciones y recopilación de datos. **No escribe los contenidos de la web ni genera sus imágenes**, ni redacta los textos que se publican (tampoco textos alternativos o metadescripciones), ni el diario de migración o los informes finales: esos los escribe una persona.
 
 ## Para quién es
 
@@ -33,7 +35,7 @@ Se asume familiaridad con WordPress y algo de CSS. No hace falta saber programar
 | [08. Accesibilidad](docs/08-accesibilidad.md) | WCAG 2.2 AA, axe-core a 1440 y 390 px, revisión manual. |
 | [09. Verificación](docs/09-verificacion.md) | Por cambio, por página y por fase; capturas; web publicada; informe honesto. |
 | [10. Trampas conocidas](docs/10-trampas-conocidas.md) | Las que aparecieron en el caso real, con causa y solución. |
-| [11. Qué no delegar en la IA](docs/11-que-no-delegar-en-la-ia.md) | Marca y contenido, textos legales, borrados y redirecciones, publicación, credenciales. |
+| [11. Qué no delegar en la IA](docs/11-que-no-delegar-en-la-ia.md) | Marca y contenido (los textos y las imágenes de la web no se generan con IA), textos legales, borrados y redirecciones, publicación, credenciales. |
 
 Material de trabajo:
 
@@ -54,7 +56,7 @@ La guía usa como referencia la pila del caso real. Si tu tema destino es otro (
 
 ## Estado y versión
 
-Versión 1.0.0, del 20 de noviembre de 2026. Versiones de referencia comprobadas en WordPress.org en esa fecha:
+Versión 0.9.0, del 20 de noviembre de 2026 (borrador previo a la reescritura manual del autor). Versiones de referencia comprobadas en WordPress.org en esa fecha:
 
 | Software | Versión |
 |---|---|
@@ -84,13 +86,13 @@ Las incidencias y las propuestas de cambio son bienvenidas, sobre todo trampas n
 
 [Nacho Menéndez Granda](https://nachomg.com/nacho-menendez/) (Nacho MG), consultor de marketing digital en Barcelona. Escribo sobre marketing, tecnología y cultura en [nachomg.com](https://nachomg.com/) y en la newsletter quincenal [Life on marketing](https://nachomg.com/life-on-marketing/).
 
-Este repositorio se ha preparado con asistencia de IA y aplicando la misma regla que defiende: la IA redactó y probó, y la revisión y la responsabilidad del contenido son mías.
+**Estado: borrador en revisión.** La recopilación y verificación de fuentes, la estructura y las tareas mecánicas (formato, pruebas de los scripts, comprobación de versiones y enlaces) se hicieron con apoyo de herramientas de IA, el uso que defiendo para esta tecnología. El texto definitivo lo estoy reescribiendo a mano; hasta entonces, trata este material como un documento de trabajo.
 
 ## Cómo citar
 
 Hay un archivo [CITATION.cff](CITATION.cff) que GitHub muestra como «Cite this repository». En texto:
 
-> Menéndez Granda, N. (2026). *De Elementor a Gutenberg con IA: guía práctica de migración con agentes MCP y criterio humano* (versión 1.0.0). https://github.com/NachoMeGran/elementor-a-gutenberg-con-ia
+> Menéndez Granda, N. (2026). *De Elementor a Gutenberg con IA: guía práctica de migración con agentes MCP y criterio humano* (versión 0.9.0). https://github.com/NachoMeGran/elementor-a-gutenberg-con-ia
 
 ## Licencias
 

@@ -61,13 +61,13 @@ La verificación no acaba el día de la publicación:
 
 ## El informe de verificación
 
-Cada fase se cierra con un informe breve que el agente puede redactar y la persona firma. Debe distinguir tres categorías sin mezclarlas:
+Cada fase se cierra con un informe breve que **escribe la persona responsable**. El agente no lo redacta: recopila los datos y las evidencias (tablas por URL, salidas de axe, rutas de capturas, códigos HTTP) en el formato de [prompts/05-verificacion.md](../prompts/05-verificacion.md), y la persona los revisa, los interpreta y escribe el informe. El informe debe distinguir tres categorías sin mezclarlas:
 
 - **Hecho y verificado**, con la evidencia (captura, resultado de axe, respuesta HTTP).
 - **Hecho sin verificar**, con el motivo.
 - **No hecho**, con el motivo.
 
-Si todo aparece como «hecho» y no hay ni una evidencia, desconfía del informe. La instrucción de ejemplo está en [prompts/05-verificacion.md](../prompts/05-verificacion.md).
+Si todo aparece como «hecho» y no hay ni una evidencia, desconfía de los datos. Lo mismo vale para el diario de migración ([00](00-principios.md#3-trazabilidad)): lo escribe la persona a partir de lo que el agente ha recopilado.
 
 ---
 

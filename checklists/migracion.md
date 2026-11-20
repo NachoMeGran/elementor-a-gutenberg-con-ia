@@ -65,7 +65,8 @@ Por cada página:
 - [ ] [IA] Operaciones por bloque para cambios de estructura.
 - [ ] [P] Abierta en el editor sin avisos de bloque no válido.
 - [ ] [P] Todo editable desde el editor visual.
-- [ ] [IA→P] Anotaciones de contenido revisadas (erratas, datos dudosos, textos alternativos).
+- [ ] [IA→P] Anotaciones de contenido revisadas (erratas, datos dudosos, textos alternativos que faltan); lo que haya que escribir lo escribe una persona.
+- [ ] [P] Ningún texto ni imagen de la página generado con IA.
 - [ ] [P] Capturas a 1440 y 390 px revisadas.
 - [ ] [IA] axe-core sin infracciones en ambos anchos.
 - [ ] [IA→P] Metadatos SEO conservados.
@@ -104,7 +105,7 @@ Por cada página:
 
 ## 9. Verificación final ([09](../docs/09-verificacion.md))
 
-- [ ] [IA→P] Informe con «hecho y verificado», «hecho sin verificar» y «no hecho».
+- [ ] [IA→P] Datos y evidencias recopilados por el agente; informe final escrito por la persona, con «hecho y verificado», «hecho sin verificar» y «no hecho».
 - [ ] [P] Formularios enviados de verdad y eventos de analítica recibidos.
 - [ ] [P] Scripts dependientes del consentimiento no se cargan antes de aceptar.
 - [ ] [P] Textos legales revisados por quien corresponda.
@@ -115,6 +116,6 @@ Por cada página:
 - [ ] [IA→P] Mes 1: clics e impresiones por URL frente al periodo anterior.
 - [ ] [P] Semana 4 en adelante: Core Web Vitals de campo.
 - [ ] [P] Decisión sobre el borrado definitivo de datos de Elementor, con copia reciente.
-- [ ] [P] Diario de migración cerrado.
+- [ ] [P] Diario de migración cerrado (lo escribe la persona; el agente solo aporta datos).
 
 Cierre: ____/____/______ · Firma: ______________________

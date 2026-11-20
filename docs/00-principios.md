@@ -45,7 +45,7 @@ Cada cambio debe poder responder a cuatro preguntas: qué se cambió, quién lo 
 
 - El **registro de auditoría** del servidor MCP (qué herramienta se llamó, con qué parámetros, con qué resultado).
 - El **historial de cambios** con el estado anterior y posterior.
-- Un **diario de migración** escrito por la persona responsable, con las decisiones y sus motivos. El agente puede redactar el borrador; la persona lo firma.
+- Un **diario de migración** escrito por la persona responsable, con las decisiones y sus motivos. El agente no lo redacta: recopila los datos que lo alimentan (cambios aplicados con su identificador, resultados de pruebas, enlaces a capturas) y la persona lo escribe.
 
 ### 4. Mínimos privilegios
 
@@ -60,7 +60,7 @@ Los servidores MCP para WordPress suelen permitir elegir qué herramientas se ex
 
 ### 5. Transparencia
 
-Hacia dentro, la persona responsable debe saber en todo momento qué ha hecho el agente y qué no ha verificado. Hacia fuera, si la IA ha intervenido de forma relevante en un trabajo que entregas a un cliente o publicas, dilo. No hace falta un aviso en cada página; sí ser honesto cuando alguien pregunta cómo se hizo.
+Hacia dentro, la persona responsable debe saber en todo momento qué ha hecho el agente y qué no ha verificado. El agente entrega datos y evidencias; los informes que se firman, se entregan a un cliente o se archivan los escribe la persona. Hacia fuera, si la IA ha intervenido de forma relevante en un trabajo que entregas a un cliente o publicas, dilo. No hace falta un aviso en cada página; sí ser honesto cuando alguien pregunta cómo se hizo.
 
 Hay una transparencia que se olvida a menudo: la del propio agente sobre sus límites. Un buen informe distingue entre «hecho y verificado», «hecho sin verificar» y «no hecho». Exígela en cada instrucción (véase [prompts/](../prompts/)).
 
@@ -68,7 +68,7 @@ Hay una transparencia que se olvida a menudo: la del propio agente sobre sus lí
 
 Una migración de maquetador toca a la vez contenido, diseño, SEO, rendimiento, accesibilidad y aspectos legales (avisos de cookies, textos legales, formularios). Cada uno de esos frentes tiene consecuencias para personas concretas: quien no puede usar un formulario con teclado, quien pierde una página que posicionaba, quien recibe un aviso de cookies que ya no funciona. La IA acelera el trabajo mecánico; la responsabilidad sobre esas consecuencias no se delega.
 
-Mi forma de verlo es tratar al agente como a un colaborador técnico muy rápido y sin contexto de negocio: excelente para inventariar, reescribir marcado, comprobar y documentar; inútil para decidir qué se queda, qué se borra o qué dice la marca. El capítulo [11. Qué no delegar en la IA](11-que-no-delegar-en-la-ia.md) concreta esa frontera.
+Mi forma de verlo es tratar al agente como a un colaborador técnico muy rápido y sin contexto de negocio: excelente para inventariar, reescribir marcado, comprobar y recopilar datos; inútil para decidir qué se queda, qué se borra o qué dice la marca. Por eso no escribe los contenidos de la web, no genera sus imágenes y no redacta el diario ni los informes finales. El capítulo [11. Qué no delegar en la IA](11-que-no-delegar-en-la-ia.md) concreta esa frontera.
 
 ---
 

@@ -34,8 +34,10 @@ RESTRICCIONES
 - Usa solo colores, tamaños y espacios del sistema de diseño. Si algo no
   encaja en el sistema, dímelo en lugar de crear valores nuevos.
 - No añadas animaciones, carruseles automáticos ni pestañas.
-- Conserva el texto alternativo de las imágenes. Si falta, propón uno en el
-  informe; no lo inventes en la página.
+- Conserva el texto alternativo de las imágenes. Si falta, anótalo en el
+  informe; no lo redactes ni en la página ni en el informe.
+- No escribas textos nuevos ni generes imágenes: solo trasladas lo que ya
+  existe.
 
 PASOS
 1. Lee la página original (estructura y contenido) y resume sus secciones.
